@@ -25,6 +25,8 @@ development:
 test:
   <<: *default
   database: postgres #db/test.sqlite3
+  username: postgres
+  password: pass
 
 production:
   <<: *default
